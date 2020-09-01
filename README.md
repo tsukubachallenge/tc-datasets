@@ -63,16 +63,56 @@ Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapp
 
 ### [WIP] fuRo Tsudanuma
 
+### Chiba Institute of Technology Campus in Tsudanuma, Chiba
+
+
+#### Sensor Data (optional)
+- 
+
+#### Map Data (optional)
+
+
 
 ## Example Course Template
 
 ### Team (and Course) Name in English
 
 
-#### Sensor Data (optional)
+#### Sensor Data
+- **Short Name:** CIT_Tsudanuma
+- **File:** [CIT_2020_compressed.bag](https://)
+- **Size:**  GB
+- **Format:** rosbag
+- **Date:** 2020-08-27 17:43:12
+- **Duration:** 56:12s
+- **Setup:** Mobile Robot (Joystick Operation)
+- **Sensors:**
+  - **Lidar:** Velodyne VLP-16
+  - **Camera:** Intel Realsense d435i (without depth)
+  - **Radar:** No
+  - **GNSS:** Drogger DG-PRO1RW (Independent Positioning)
+  - **IMU:** Analog Devices ADIS16465
+  - **Wheel Encoders (Odometry):** Yes
+- **Description:** Low cost 3D-Lidar, Less accurate wheel odometry. This bag file does NOT have depth image.
+- **License:** TBD
 
 
-#### Map Data (optional)
+
+#### Map Data
+- **Short Name:** map_tsudanuma
+- **File:** [map_tsudanuma.pcd](https://)
+- **Size:** 490.8 MB
+- **Format:** pcd
+- **Number of Points:** 13,583,284
+- **Point Type:**
+  - **XYZ:** Yes
+  - **Intensity:** Yes
+  - **Color:** No
+  - **Normal:** Yes
+- **SLAM Method:** Occupancy Voxel Mapping using LIO-SAM.
+- **Description:** Chiba Institute of Technology in Tsudanuma campus.
+- **License:** TBD
+
 
 
 # [WIP] Related Datasets
