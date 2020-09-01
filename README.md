@@ -100,7 +100,7 @@ Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapp
 
 #### Map Data
 - **Short Name:** map_tsudanuma
-- **File:** [map_tsudanuma.pcd](https://)
+- **File:** [map_tsudanuma.pcd](https://drive.google.com/file/d/19HeoDbAmwfxLW40NhZFPQGvRZKuip62B/view?usp=sharing)
 - **Size:** 490.8 MB
 - **Format:** pcd
 - **Number of Points:** 13,583,284
