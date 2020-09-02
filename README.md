@@ -64,20 +64,6 @@ Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapp
 ### [WIP] fuRo Tsudanuma
 
 ### Chiba Institute of Technology Campus in Tsudanuma, Chiba
-
-
-#### Sensor Data (optional)
-- 
-
-#### Map Data (optional)
-
-
-
-## Example Course Template
-
-### Team (and Course) Name in English
-
-
 #### Sensor Data
 - **Short Name:** CIT_Tsudanuma
 - **File:** [CIT_2020_compressed.bag](https://drive.google.com/file/d/1SBKNJ2NDwQlhbN75WJcMppTSwlJu1s4g/view?usp=sharing)
@@ -96,8 +82,6 @@ Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapp
 - **Description:** This bag file is compressed with a command `rosbag compress`.
 - **License:** TBD
 
-
-
 #### Map Data
 - **Short Name:** map_tsudanuma
 - **File:** [map_tsudanuma.pcd](https://drive.google.com/file/d/19HeoDbAmwfxLW40NhZFPQGvRZKuip62B/view?usp=sharing)
@@ -113,6 +97,16 @@ Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapp
 - **Description:** Chiba Institute of Technology in Tsudanuma campus.
 - **License:** TBD
 
+
+## Example Course Template
+
+### Team (and Course) Name in English
+
+
+#### Sensor Data (optional)
+
+
+#### Map Data (optional)
 
 
 # [WIP] Related Datasets
