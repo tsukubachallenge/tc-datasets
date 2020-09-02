@@ -81,7 +81,7 @@ Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapp
 #### Sensor Data
 - **Short Name:** CIT_Tsudanuma
 - **File:** [CIT_2020_compressed.bag](https://)
-- **Size:**  GB
+- **Size:** 57 GB
 - **Format:** rosbag
 - **Date:** 2020-08-27 17:43:12
 - **Duration:** 56:12s
@@ -93,7 +93,7 @@ Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapp
   - **GNSS:** Drogger DG-PRO1RW (Independent Positioning)
   - **IMU:** Analog Devices ADIS16465
   - **Wheel Encoders (Odometry):** Yes
-- **Description:** Low cost 3D-Lidar, Less accurate wheel odometry. This bag file does NOT have depth image.
+- **Description:** This bag file is compressed with a command `rosbag compress`.
 - **License:** TBD
 
 
