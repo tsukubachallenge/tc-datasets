@@ -80,7 +80,7 @@ Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapp
 
 #### Sensor Data
 - **Short Name:** CIT_Tsudanuma
-- **File:** [CIT_2020_compressed.bag](https://)
+- **File:** [CIT_2020_compressed.bag](https://drive.google.com/file/d/1SBKNJ2NDwQlhbN75WJcMppTSwlJu1s4g/view?usp=sharing)
 - **Size:** 57 GB
 - **Format:** rosbag
 - **Date:** 2020-08-27 17:43:12
