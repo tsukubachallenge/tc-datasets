@@ -63,7 +63,8 @@ Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapp
 
 ### [WIP] fuRo Tsudanuma
 
-### Chiba Institute of Technology Campus in Tsudanuma, Chiba
+### Tsudanuma Campus Course of Chiba Institute of Technology
+### Advanced Robotics Department Team of Chiba Institute of Technology 
 #### Sensor Data
 - **Short Name:** CIT_Tsudanuma
 - **File:** [CIT_2020_compressed.bag](https://drive.google.com/file/d/1SBKNJ2NDwQlhbN75WJcMppTSwlJu1s4g/view?usp=sharing)
@@ -94,7 +95,7 @@ Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapp
   - **Color:** No
   - **Normal:** Yes
 - **SLAM Method:** Occupancy Voxel Mapping using LIO-SAM.
-- **Description:** Chiba Institute of Technology in Tsudanuma campus.
+- **Description:** Tsudanuma Campus of Chiba Institute of Technology.
 - **License:** TBD
 
 
