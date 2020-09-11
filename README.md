@@ -63,6 +63,41 @@ Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapp
 
 ### [WIP] fuRo Tsudanuma
 
+### Tsudanuma Campus Course of Chiba Institute of Technology
+### Advanced Robotics Department Team of Chiba Institute of Technology 
+#### Sensor Data
+- **Short Name:** CIT_Tsudanuma
+- **File:** [CIT_2020_compressed.bag](https://drive.google.com/file/d/1SBKNJ2NDwQlhbN75WJcMppTSwlJu1s4g/view?usp=sharing)
+- **Size:** 57 GB
+- **Format:** rosbag
+- **Date:** 2020-08-27 17:43:12
+- **Duration:** 56:12s
+- **Setup:** Mobile Robot (Joystick Operation)
+- **Sensors:**
+  - **Lidar:** Velodyne VLP-16
+  - **Camera:** Intel Realsense d435i (without depth)
+  - **Radar:** No
+  - **GNSS:** Drogger DG-PRO1RW (Independent Positioning)
+  - **IMU:** Analog Devices ADIS16465
+  - **Wheel Encoders (Odometry):** Yes
+- **Description:** This bag file is compressed with a command `rosbag compress`.
+- **License:** TBD
+
+#### Map Data
+- **Short Name:** map_tsudanuma
+- **File:** [map_tsudanuma.pcd](https://drive.google.com/file/d/19HeoDbAmwfxLW40NhZFPQGvRZKuip62B/view?usp=sharing)
+- **Size:** 490.8 MB
+- **Format:** pcd
+- **Number of Points:** 13,583,284
+- **Point Type:**
+  - **XYZ:** Yes
+  - **Intensity:** Yes
+  - **Color:** No
+  - **Normal:** Yes
+- **SLAM Method:** Occupancy Voxel Mapping using LIO-SAM.
+- **Description:** Tsudanuma Campus of Chiba Institute of Technology.
+- **License:** TBD
+
 
 ## Example Course Template
 
