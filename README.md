@@ -53,6 +53,27 @@ If you use our dataset in your academic work, please cite the following paper [[
 Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapping for Path Planning on 3D Terrain", Advanced Robotics, vol. 34, no. 6, pp. 375--387, 2020.
 ```
 
+### Tsuchiura Project
+
+#### Sensor Data
+
+- **Short Name:** tc19_tsuchiuraPJ
+- **File:** [2019-11-10-13-37-16.bag](https://doog-cloud.com/index.php/s/yByYgFkodOUHkkJ)
+- **Size:** 12.8 GB
+- **Format:** rosbag
+- **Date:** 2019-11-10 13:37:16
+- **Duration:** 53:18s
+- **Setup:** Mobile Robot (Autonomous Operation)
+- **Sensors:**
+  - **Lidar:** Hokuyo YVT-X002, UTM-30LX-EW, URM-40LC-EW
+  - **Camera:** Ricoh Theta S, logicool C920
+  - **Radar:** No
+  - **GNSS:** u-blox NEO-M8T
+  - **IMU:** No
+  - **Wheel Encoders (Odometry):** Yes
+- **Description:** This bag file is compressed with 7z.
+- **License:** TBD
+
 
 ## Tsukuba Challenge 2018 Course
 
