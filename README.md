@@ -27,15 +27,13 @@
 - **License:** TBD
 
 If you use our dataset in your academic work, please cite the following paper [[DOI](https://doi.org/10.1080/01691864.2020.1717375)]:
-```
-Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapping for Path Planning on 3D Terrain", Advanced Robotics, vol. 34, no. 6, pp. 375--387, 2020.
-```
+> Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapping for Path Planning on 3D Terrain", Advanced Robotics, vol. 34, no. 6, pp. 375--387, 2020.
 
 
 #### Map Data
 
 - **Short Name:** map_tc19_furo
-- **File:** [map_tc19_o085_f-04_t05.pcd](https://)
+- **File:** [map_tc19_o085_f-04_t05.pcd](https://drive.google.com/file/d/1mH20dXpnBBlQ6hMKJZqdVhphrffsvWK_/view?usp=sharing)
 - **Size:** 683 MB
 - **Format:** pcd
 - **Number of Points:** 22,356,688
@@ -49,9 +47,8 @@ Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapp
 - **License:** TBD
 
 If you use our dataset in your academic work, please cite the following paper [[DOI](https://doi.org/10.1080/01691864.2020.1717375)]:
-```
-Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapping for Path Planning on 3D Terrain", Advanced Robotics, vol. 34, no. 6, pp. 375--387, 2020.
-```
+> Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapping for Path Planning on 3D Terrain", Advanced Robotics, vol. 34, no. 6, pp. 375--387, 2020.
+
 
 ### Tsuchiura Project
 
