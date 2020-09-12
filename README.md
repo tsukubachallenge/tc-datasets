@@ -5,7 +5,7 @@
 
 ## Tsukuba Challenge 2019 Course
 
-### fuRo, Sensor Data
+### TC2019, fuRo, Sensor Data
 
 - **Short Name:** tc19_furo
 - **File:** [tc19_js_2019-09-14-14-12-15.bag](https://)
@@ -28,7 +28,7 @@ If you use our dataset in your academic work, please cite the following paper [[
 > Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapping for Path Planning on 3D Terrain", Advanced Robotics, vol. 34, no. 6, pp. 375--387, 2020.
 
 
-### fuRo, Map Data
+### TC2019, fuRo, Map Data
 
 - **Short Name:** map_tc19_furo
 - **File:** [map_tc19_o085_f-04_t05.pcd](https://drive.google.com/file/d/1mH20dXpnBBlQ6hMKJZqdVhphrffsvWK_/view?usp=sharing)
@@ -48,7 +48,7 @@ If you use our dataset in your academic work, please cite the following paper [[
 > Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapping for Path Planning on 3D Terrain", Advanced Robotics, vol. 34, no. 6, pp. 375--387, 2020.
 
 
-### Tsuchiura Project, Sensor Data
+### TC2019, Tsuchiura Project, Sensor Data
 
 - **Short Name:** tc19_tsuchiuraPJ
 - **File:** [2019-11-10-13-37-16.bag](https://doog-cloud.com/index.php/s/yByYgFkodOUHkkJ)
@@ -70,7 +70,7 @@ If you use our dataset in your academic work, please cite the following paper [[
 
 ## Tsukuba Challenge 2018 Course
 
-### fuRo, Map Data
+### TC2018, fuRo, Map Data
 
 - **Short Name:** map_tc18_furo
 - **File:** [map_tc18_o085_f-04_t30.pcd](https://drive.google.com/file/d/1c7Vd4vkMudAHyxc0ZOZCbTgx8ZFZ_Slx/view?usp=sharing)
@@ -92,10 +92,10 @@ If you use our dataset in your academic work, please cite the following paper [[
 
 ## Other Courses
 
-### [WIP] fuRo, Tsudanuma, Sensor Data
+### [WIP] Tsudanuma 2020, fuRo, Sensor Data
 
 
-### Chiba Institute of Technology, Tsudanuma, Sensor Data
+### Tsudanuma 2020, Chiba Institute of Technology, Sensor Data
 
 - **Short Name:** CIT_Tsudanuma
 - **File:** [CIT_2020_compressed.bag](https://drive.google.com/file/d/1SBKNJ2NDwQlhbN75WJcMppTSwlJu1s4g/view?usp=sharing)
@@ -115,7 +115,7 @@ If you use our dataset in your academic work, please cite the following paper [[
 - **License:** TBD
 
 
-### Chiba Institute of Technology, Tsudanuma, Map Data
+### Tsudanuma 2020, Chiba Institute of Technology, Map Data
 
 - **Short Name:** map_tsudanuma
 - **File:** [map_tsudanuma.pcd](https://drive.google.com/file/d/19HeoDbAmwfxLW40NhZFPQGvRZKuip62B/view?usp=sharing)
@@ -134,7 +134,7 @@ If you use our dataset in your academic work, please cite the following paper [[
 
 ## Example Course Template
 
-### Team (and Course) Name, Sensor Data / Map Data
+### Course Name, Team Name, Sensor Data / Map Data
 
 
 # [WIP] Related Datasets
