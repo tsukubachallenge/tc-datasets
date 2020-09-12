@@ -24,7 +24,7 @@
   - **IMU:** Xsens MTi-3
   - **Wheel Encoders (Odometry):** Yes
 - **Description:** Low cost 3D-Lidar, Less accurate wheel odometry.
-- **License:** TBD
+- **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 If you use our dataset in your academic work, please cite the following paper [[DOI](https://doi.org/10.1080/01691864.2020.1717375)]:
 > Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapping for Path Planning on 3D Terrain", Advanced Robotics, vol. 34, no. 6, pp. 375--387, 2020.
@@ -44,7 +44,7 @@ If you use our dataset in your academic work, please cite the following paper [[
   - **Normal:** Yes
 - **SLAM Method:** Occupancy Voxel Mapping using 3D Cartographer
 - **Description:** Moving objects has been removed.
-- **License:** TBD
+- **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 If you use our dataset in your academic work, please cite the following paper [[DOI](https://doi.org/10.1080/01691864.2020.1717375)]:
 > Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapping for Path Planning on 3D Terrain", Advanced Robotics, vol. 34, no. 6, pp. 375--387, 2020.
