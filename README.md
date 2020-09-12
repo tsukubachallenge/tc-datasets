@@ -22,7 +22,7 @@
   - **Radar:** No
   - **GNSS:** No
   - **IMU:** Xsens MTi-3
-  - **Wheel Encoders (Odometry):** Yes
+  - **Motor Encoders (Wheel Odometry):** Yes
 - **Description:** Low cost 3D-Lidar, Less accurate wheel odometry.
 - **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -67,7 +67,7 @@ If you use our dataset in your academic work, please cite the following paper [[
   - **Radar:** No
   - **GNSS:** u-blox NEO-M8T
   - **IMU:** No
-  - **Wheel Encoders (Odometry):** Yes
+  - **Motor Encoders (Wheel Odometry):** Yes
 - **Description:** This bag file is compressed with 7z.
 - **License:** TBD
 
@@ -98,11 +98,12 @@ If you use our dataset in your academic work, please cite the following paper [[
 
 ## Other Courses
 
-### [WIP] fuRo Tsudanuma
+### [WIP] fuRo, Tsudanuma
 
-### Tsudanuma Campus Course of Chiba Institute of Technology
-### Advanced Robotics Department Team of Chiba Institute of Technology 
+### Chiba Institute of Technology, Tsudanuma
+
 #### Sensor Data
+
 - **Short Name:** CIT_Tsudanuma
 - **File:** [CIT_2020_compressed.bag](https://drive.google.com/file/d/1SBKNJ2NDwQlhbN75WJcMppTSwlJu1s4g/view?usp=sharing)
 - **Size:** 57 GB
@@ -116,11 +117,13 @@ If you use our dataset in your academic work, please cite the following paper [[
   - **Radar:** No
   - **GNSS:** Drogger DG-PRO1RW (Independent Positioning)
   - **IMU:** Analog Devices ADIS16465
-  - **Wheel Encoders (Odometry):** Yes
+  - **Motor Encoders (Wheel Odometry):** Yes
 - **Description:** This bag file is compressed with a command `rosbag compress`.
 - **License:** TBD
 
+
 #### Map Data
+
 - **Short Name:** map_tsudanuma
 - **File:** [map_tsudanuma.pcd](https://drive.google.com/file/d/19HeoDbAmwfxLW40NhZFPQGvRZKuip62B/view?usp=sharing)
 - **Size:** 490.8 MB
