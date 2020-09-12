@@ -15,7 +15,7 @@
 - **Format:** rosbag
 - **Date:** 2019-09-14 14:12:15
 - **Duration:** 1hr 47:31s
-- **Setup:** Mobile Robot (Joystick Operation)
+- **Setup:** Differential Wheeled Robot (Joystick Operation)
 - **Sensors:**
   - **Lidar:** SureStar R-Fans-16M
   - **Camera:** No
@@ -24,18 +24,16 @@
   - **IMU:** Xsens MTi-3
   - **Wheel Encoders (Odometry):** Yes
 - **Description:** Low cost 3D-Lidar, Less accurate wheel odometry.
-- **License:** TBD
+- **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 If you use our dataset in your academic work, please cite the following paper [[DOI](https://doi.org/10.1080/01691864.2020.1717375)]:
-```
-Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapping for Path Planning on 3D Terrain", Advanced Robotics, vol. 34, no. 6, pp. 375--387, 2020.
-```
+> Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapping for Path Planning on 3D Terrain", Advanced Robotics, vol. 34, no. 6, pp. 375--387, 2020.
 
 
 #### Map Data
 
 - **Short Name:** map_tc19_furo
-- **File:** [map_tc19_o085_f-04_t05.pcd](https://)
+- **File:** [map_tc19_o085_f-04_t05.pcd](https://drive.google.com/file/d/1mH20dXpnBBlQ6hMKJZqdVhphrffsvWK_/view?usp=sharing)
 - **Size:** 683 MB
 - **Format:** pcd
 - **Number of Points:** 22,356,688
@@ -46,12 +44,11 @@ Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapp
   - **Normal:** Yes
 - **SLAM Method:** Occupancy Voxel Mapping using 3D Cartographer
 - **Description:** Moving objects has been removed.
-- **License:** TBD
+- **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 If you use our dataset in your academic work, please cite the following paper [[DOI](https://doi.org/10.1080/01691864.2020.1717375)]:
-```
-Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapping for Path Planning on 3D Terrain", Advanced Robotics, vol. 34, no. 6, pp. 375--387, 2020.
-```
+> Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapping for Path Planning on 3D Terrain", Advanced Robotics, vol. 34, no. 6, pp. 375--387, 2020.
+
 
 ### Tsuchiura Project
 
