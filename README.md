@@ -15,7 +15,7 @@
 - **Format:** rosbag
 - **Date:** 2019-09-14 14:12:15
 - **Duration:** 1hr 47:31s
-- **Setup:** Mobile Robot (Joystick Operation)
+- **Setup:** Differential Wheeled Robot (Joystick Operation)
 - **Sensors:**
   - **Lidar:** SureStar R-Fans-16M
   - **Camera:** No
