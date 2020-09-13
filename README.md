@@ -8,7 +8,7 @@
 ### TC2019, fuRo, Sensor Data
 
 - **Short Name:** tc19_furo
-- **File:** [tc19_js_2019-09-14-14-12-15.bag](https://)
+- **File:** [tc19_js_2019-09-14-14-12-15.bag (56 GB)](https://drive.google.com/file/d/1_ZFxcYRgKpX0MLZ5_dPTrm9Fq4p1TFH1/view?usp=sharing), [tc19_js_2019-09-14-14-12-15.bag.7z (22 GB)](https://drive.google.com/file/d/1ETDRXmVyWI_kCDog2He02jrOfarEABt5/view?usp=sharing)
 - **Size:** 55.8 GB
 - **Format:** rosbag
 - **Date:** 2019-09-14 14:12:15
@@ -21,7 +21,7 @@
   - **GNSS:** No
   - **IMU:** Xsens MTi-3
   - **Motor Encoders (Wheel Odometry):** Yes
-- **Description:** Low cost 3D-Lidar, Less accurate wheel odometry.
+- **Description:** Low cost 3D-Lidar. Low accuracy wheel odometry.
 - **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 If you use our dataset in your academic work, please cite the following paper [[DOI](https://doi.org/10.1080/01691864.2020.1717375)]:
@@ -69,6 +69,29 @@ If you use our dataset in your academic work, please cite the following paper [[
 
 
 ## Tsukuba Challenge 2018 Course
+
+### TC2018, fuRo, Sensor Data
+
+- **Short Name:** tc18_furo
+- **File:** [tc18_js_2018-09-15-14-31-29.bag (41 GB)](https://drive.google.com/file/d/1vZB_1gKLWW6cypC9W9ZlNIKxIWb1-Z9p/view?usp=sharing), [tc18_js_2018-09-15-14-31-29.bag.7z (12 GB)](https://drive.google.com/file/d/10Dh1cEg0U_MEjiDxlg6He8xEYoTIAgk4/view?usp=sharing)
+- **Size:** 40.8 GB
+- **Format:** rosbag
+- **Date:** 2018-09-15 14:31:29 (Converted to rosbag on 2018-09-20)
+- **Duration:** 1hr 31:43s
+- **Setup:** Differential Wheeled Robot (Joystick Operation)
+- **Sensors:**
+  - **Lidar:** Velodyne VLP-16
+  - **Camera:** No
+  - **Radar:** No
+  - **GNSS:** No
+  - **IMU:** Xsens MTi-3
+  - **Motor Encoders (Wheel Odometry):** Yes
+- **Description:** High accuracy wheel odometry.
+- **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+If you use our dataset in your academic work, please cite the following paper [[DOI](https://doi.org/10.1080/01691864.2020.1717375)]:
+> Yoshitaka Hara and Masahiro Tomono: "Moving Object Removal and Surface Mesh Mapping for Path Planning on 3D Terrain", Advanced Robotics, vol. 34, no. 6, pp. 375--387, 2020.
+
 
 ### TC2018, fuRo, Map Data
 
