@@ -41,7 +41,7 @@ If you use our dataset in your academic work, please cite the following paper [[
   - **Color:** No
   - **Normal:** Yes
 - **SLAM Method:** Occupancy Voxel Mapping using 3D Cartographer
-- **Description:** Moving objects has been removed.
+- **Description:** Moving objects have been removed.
 - **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 If you use our dataset in your academic work, please cite the following paper [[DOI](https://doi.org/10.1080/01691864.2020.1717375)]:
@@ -106,7 +106,7 @@ If you use our dataset in your academic work, please cite the following paper [[
   - **Color:** No
   - **Normal:** Yes
 - **SLAM Method:** Occupancy Voxel Mapping using 3D Cartographer
-- **Description:** Moving objects has been removed.
+- **Description:** Moving objects have been removed.
 - **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 If you use our dataset in your academic work, please cite the following paper [[DOI](https://doi.org/10.1080/01691864.2020.1717375)]:
