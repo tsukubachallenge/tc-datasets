@@ -21,7 +21,7 @@
   - **GNSS:** No
   - **IMU:** Xsens MTi-3
   - **Motor Encoders (Wheel Odometry):** Yes
-- **Description:** Low cost 3D-Lidar, Less accurate wheel odometry.
+- **Description:** Low cost 3D-Lidar. Low accuracy wheel odometry.
 - **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 If you use our dataset in your academic work, please cite the following paper [[DOI](https://doi.org/10.1080/01691864.2020.1717375)]:
