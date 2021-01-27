@@ -2,8 +2,34 @@
 
 **Real World Datasets for Autonomous Navigation**
 
+| Name                                                                       | Provider          | Type   | Format | Location                      | Date       |
+|----------------------------------------------------------------------------|-------------------|--------|--------|-------------------------------|------------|
+| [map_tc19_gnss+ins_furo](#tc2019-furo-gnss+ins-map-data)                   | fuRo              | Map    | pcd    | Tsukuba                       | 2020-08-29 |
+| [tc19_furo](#tc2019-furo-sensor-data)                                      | fuRo              | Sensor | rosbag | Tsukuba                       | 2019-09-14 |
+| [map_tc19_furo](#tc2019-furo-map-data)                                     | fuRo              | Map    | pcd    | Tsukuba                       | 2019       |
+| [tc19_tsuchiuraPJ](#tc2019-tsuchiura-project-sensor-data)                  | Tsuchiura Project | Sensor | rosbag | Tsukuba                       | 2019-11-10 |
+| [tc18_furo](#tsukuba-challenge-2018-course)                                | fuRo              | Sensor | rosbag | Tsukuba                       | 2018-09-15 |
+| [tc18_furo](#tc2018-furo-map-data)                                         | fuRo              | Map    | pcd    | Tsukuba                       | 2018       |
+| [CIT_Tsudanuma](#tsudanuma-2020-chiba-institute-of-technology-sensor-data) | CIT               | Sensor | rosbag | Chiba Institute of Technology | 2020-08-27 |
+| [map_tsudanuma](#tsudanuma-2020-chiba-institute-of-technology-map-data)    | CIT               | Map    | pcd    | Chiba Institute of Technology | 2020       |
 
 ## Tsukuba Challenge 2019 Course
+
+### TC2019, fuRo, GNSS+INS Map Data
+
+- **Short Name:** map_tc19_gnss+ins_furo
+- **File:** [map_tc19_gnss+ins_furo.pcd](http://www.taroz.net/span/data/map_tc19_gnss+ins_furo.pcd)
+- **Size:** 1.95 GB
+- **Format:** pcd
+- **Number of Points:** 83,178,268
+- **Point Type:**
+  - **XYZ:** Yes
+  - **Intensity:** Yes
+  - **Color:** No
+  - **Normal:** No
+- **SLAM Method:** No SLAM (GNSS+INS, using NovAtel SPAN-CPT7 + Velodyne VLP-16)
+- **Description:** [Web viewer](http://www.taroz.net/span/span_tc_vlp16_100m_5cm.html), [LT PPT slide](http://www.taroz.net/span/data/LT_2020.pdf), Latitude, longitude, and ellipsoid height of the origin: 36.08254144, 140.07642281, 66.9479
+- **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ### TC2019, fuRo, Sensor Data
 
