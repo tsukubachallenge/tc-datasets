@@ -4,12 +4,12 @@
 
 | Name                                                                       | Provider          | Type   | Format | Location                      | Date       |
 |----------------------------------------------------------------------------|-------------------|--------|--------|-------------------------------|------------|
-| [map_tc19_gnss+ins_furo](#tc2019-furo-gnss+ins-map-data)                   | fuRo              | Map    | pcd    | Tsukuba                       | 2020-08-29 |
+| [map_tc19_gnss+ins_furo](#tc2019-furo-gnssins-map-data)                    | fuRo              | Map    | pcd    | Tsukuba                       | 2020-08-29 |
 | [tc19_furo](#tc2019-furo-sensor-data)                                      | fuRo              | Sensor | rosbag | Tsukuba                       | 2019-09-14 |
 | [map_tc19_furo](#tc2019-furo-map-data)                                     | fuRo              | Map    | pcd    | Tsukuba                       | 2019       |
 | [tc19_tsuchiuraPJ](#tc2019-tsuchiura-project-sensor-data)                  | Tsuchiura Project | Sensor | rosbag | Tsukuba                       | 2019-11-10 |
 | [tc18_furo](#tsukuba-challenge-2018-course)                                | fuRo              | Sensor | rosbag | Tsukuba                       | 2018-09-15 |
-| [tc18_furo](#tc2018-furo-map-data)                                         | fuRo              | Map    | pcd    | Tsukuba                       | 2018       |
+| [map_tc18_furo](#tc2018-furo-map-data)                                     | fuRo              | Map    | pcd    | Tsukuba                       | 2018       |
 | [CIT_Tsudanuma](#tsudanuma-2020-chiba-institute-of-technology-sensor-data) | CIT               | Sensor | rosbag | Chiba Institute of Technology | 2020-08-27 |
 | [map_tsudanuma](#tsudanuma-2020-chiba-institute-of-technology-map-data)    | CIT               | Map    | pcd    | Chiba Institute of Technology | 2020       |
 
