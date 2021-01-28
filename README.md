@@ -28,7 +28,7 @@
   - **Color:** No
   - **Normal:** No
 - **SLAM Method:** No SLAM (GNSS+INS, using NovAtel SPAN-CPT7 + Velodyne VLP-16)
-- **Description:** [Web viewer](http://www.taroz.net/span/span_tc_vlp16_100m_5cm.html) [LT PPT slide](http://www.taroz.net/span/data/LT_2020.pdf) The lidar measurement of more than 100 meters is cut off. We ran the Tsukuba Challenge 2019 course, excluding the forest in the park. Latitude, longitude, and ellipsoid height of the origin: 36.08254144, 140.07642281, 66.9479.
+- **Description:** [Web viewer](http://www.taroz.net/span/span_tc_vlp16_100m_5cm.html),  [LT PPT slide](http://www.taroz.net/span/data/LT_2020.pdf). The lidar measurement of more than 100 meters is cut off. We ran the Tsukuba Challenge 2019 course, excluding the forest in the park. Latitude, longitude, and ellipsoid height of the origin: 36.08254144, 140.07642281, 66.9479.
 - **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ### TC2019, fuRo, Sensor Data
