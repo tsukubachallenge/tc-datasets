@@ -2,22 +2,24 @@
 
 **Real World Datasets for Autonomous Navigation**
 
-| Name                                                                       | Provider          | Type   | Format | Location                      | Date       |
-|----------------------------------------------------------------------------|-------------------|--------|--------|-------------------------------|------------|
-| [map_tc19_gnss+ins_furo](#tc2019-furo-gnssins-map-data)                    | fuRo              | Map    | pcd    | Tsukuba                       | 2020-08-29 |
-| [tc19_furo](#tc2019-furo-sensor-data)                                      | fuRo              | Sensor | rosbag | Tsukuba                       | 2019-09-14 |
-| [map_tc19_furo](#tc2019-furo-map-data)                                     | fuRo              | Map    | pcd    | Tsukuba                       | 2019       |
-| [tc19_tsuchiuraPJ](#tc2019-tsuchiura-project-sensor-data)                  | Tsuchiura Project | Sensor | rosbag | Tsukuba                       | 2019-11-10 |
-| [tc18_furo](#tsukuba-challenge-2018-course)                                | fuRo              | Sensor | rosbag | Tsukuba                       | 2018-09-15 |
-| [map_tc18_furo](#tc2018-furo-map-data)                                     | fuRo              | Map    | pcd    | Tsukuba                       | 2018       |
-| [CIT_Tsudanuma](#tsudanuma-2020-chiba-institute-of-technology-sensor-data) | CIT               | Sensor | rosbag | Chiba Institute of Technology | 2020-08-27 |
-| [map_tsudanuma](#tsudanuma-2020-chiba-institute-of-technology-map-data)    | CIT               | Map    | pcd    | Chiba Institute of Technology | 2020       |
+| Name                                                                       | Provider                      | Type   | Location                      |
+|----------------------------------------------------------------------------|-------------------------------|--------|-------------------------------|
+| [map_tc19_gnss+ins_furo](#tc2019-furo-gnssins-map-data)                    | fuRo                          | Map    | Tsukuba                       |
+| [tc19_furo](#tc2019-furo-sensor-data)                                      | fuRo                          | Sensor | Tsukuba                       |
+| [map_tc19_furo](#tc2019-furo-map-data)                                     | fuRo                          | Map    | Tsukuba                       |
+| [tc19_tsuchiuraPJ](#tc2019-tsuchiura-project-sensor-data)                  | Tsuchiura Project             | Sensor | Tsukuba                       |
+| [tc18_furo](#tsukuba-challenge-2018-course)                                | fuRo                          | Sensor | Tsukuba                       |
+| [map_tc18_furo](#tc2018-furo-map-data)                                     | fuRo                          | Map    | Tsukuba                       |
+| [CIT_Tsudanuma](#tsudanuma-2020-chiba-institute-of-technology-sensor-data) | Chiba Institute of Technology | Sensor | Chiba Institute of Technology |
+| [map_tsudanuma](#tsudanuma-2020-chiba-institute-of-technology-map-data)    | Chiba Institute of Technology | Map    | Chiba Institute of Technology |
 
 ## Tsukuba Challenge 2019 Course
 
 ### TC2019, fuRo, GNSS+INS Map Data
 
 - **Short Name:** map_tc19_gnss+ins_furo
+- **Provider:** fuRo
+- **Type:** Map 
 - **File:** [map_tc19_gnss+ins_furo.pcd](http://www.taroz.net/span/data/map_tc19_gnss+ins_furo.pcd)
 - **Size:** 1.95 GB
 - **Format:** pcd
@@ -34,6 +36,8 @@
 ### TC2019, fuRo, Sensor Data
 
 - **Short Name:** tc19_furo
+- **Provider:** fuRo
+- **Type:** Sensor 
 - **File:** [tc19_js_2019-09-14-14-12-15.bag (56 GB)](https://drive.google.com/file/d/1_ZFxcYRgKpX0MLZ5_dPTrm9Fq4p1TFH1/view?usp=sharing), [tc19_js_2019-09-14-14-12-15.bag.7z (22 GB)](https://drive.google.com/file/d/1ETDRXmVyWI_kCDog2He02jrOfarEABt5/view?usp=sharing)
 - **Size:** 55.8 GB
 - **Format:** rosbag
@@ -57,6 +61,8 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### TC2019, fuRo, Map Data
 
 - **Short Name:** map_tc19_furo
+- **Provider:** fuRo
+- **Type:** Map 
 - **File:** [map_tc19_o085_f-04_t05.pcd](https://drive.google.com/file/d/1mH20dXpnBBlQ6hMKJZqdVhphrffsvWK_/view?usp=sharing)
 - **Size:** 683 MB
 - **Format:** pcd
@@ -77,6 +83,8 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### TC2019, Tsuchiura Project, Sensor Data
 
 - **Short Name:** tc19_tsuchiuraPJ
+- **Provider:** Tsuchiura Project
+- **Type:** Sensor 
 - **File:** [2019-11-10-13-37-16.bag](https://doog-cloud.com/index.php/s/yByYgFkodOUHkkJ)
 - **Size:** 12.8 GB
 - **Format:** rosbag
@@ -99,6 +107,8 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### TC2018, fuRo, Sensor Data
 
 - **Short Name:** tc18_furo
+- **Provider:** fuRo
+- **Type:** Sensor 
 - **File:** [tc18_js_2018-09-15-14-31-29.bag (41 GB)](https://drive.google.com/file/d/1vZB_1gKLWW6cypC9W9ZlNIKxIWb1-Z9p/view?usp=sharing), [tc18_js_2018-09-15-14-31-29.bag.7z (12 GB)](https://drive.google.com/file/d/10Dh1cEg0U_MEjiDxlg6He8xEYoTIAgk4/view?usp=sharing)
 - **Size:** 40.8 GB
 - **Format:** rosbag
@@ -122,6 +132,8 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### TC2018, fuRo, Map Data
 
 - **Short Name:** map_tc18_furo
+- **Provider:** fuRo
+- **Type:** Map 
 - **File:** [map_tc18_o085_f-04_t30.pcd](https://drive.google.com/file/d/1c7Vd4vkMudAHyxc0ZOZCbTgx8ZFZ_Slx/view?usp=sharing)
 - **Size:** 519 MB
 - **Format:** pcd
@@ -147,6 +159,8 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### Tsudanuma 2020, Chiba Institute of Technology, Sensor Data
 
 - **Short Name:** CIT_Tsudanuma
+- **Provider:** Chiba Institute of Technology
+- **Type:** Sensor 
 - **File:** [CIT_2020_compressed.bag](https://drive.google.com/file/d/1SBKNJ2NDwQlhbN75WJcMppTSwlJu1s4g/view?usp=sharing)
 - **Size:** 57 GB
 - **Format:** rosbag
@@ -167,6 +181,8 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### Tsudanuma 2020, Chiba Institute of Technology, Map Data
 
 - **Short Name:** map_tsudanuma
+- **Provider:** Chiba Institute of Technology
+- **Type:** Map
 - **File:** [map_tsudanuma.pcd](https://drive.google.com/file/d/19HeoDbAmwfxLW40NhZFPQGvRZKuip62B/view?usp=sharing)
 - **Size:** 490.8 MB
 - **Format:** pcd
