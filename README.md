@@ -65,7 +65,7 @@ If you use our dataset in your academic work, please cite the following paper [[
   - **IMU:** No
   - **Motor Encoders (Wheel Odometry):** Yes
 - **Description:** This bag file is compressed with 7z.
-- **License:** TBD
+- **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
 ## Tsukuba Challenge 2018 Course
