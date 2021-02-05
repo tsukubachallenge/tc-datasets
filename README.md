@@ -2,7 +2,7 @@
 
 **Real World Datasets for Autonomous Navigation**
 
-| Name                                                                          | Provider                      | Type   | Location                      |
+| Name                                                                          | Provider (Team)               | Type   | Location                      |
 |-------------------------------------------------------------------------------|-------------------------------|--------|-------------------------------|
 | [map_tc19_gnss+ins_furo](#tc2019-furo-gnssins-map-data)                       | fuRo                          | Map    | Tsukuba Challenge 2019 Course |
 | [tc19_furo](#tc2019-furo-sensor-data)                                         | fuRo                          | Sensor | Tsukuba Challenge 2019 Course |
@@ -19,7 +19,7 @@
 ### TC2019, fuRo, GNSS+INS Map Data
 
 - **Short Name:** map_tc19_gnss+ins_furo
-- **Provider:** fuRo
+- **Provider (Team):** fuRo
 - **Type:** Map 
 - **Location:** Tsukuba Challenge 2019 Course 
 - **File:** [map_tc19_gnss+ins_furo.pcd](http://www.taroz.net/span/data/map_tc19_gnss+ins_furo.pcd)
@@ -39,7 +39,7 @@
 ### TC2019, fuRo, Sensor Data
 
 - **Short Name:** tc19_furo
-- **Provider:** fuRo
+- **Provider (Team):** fuRo
 - **Type:** Sensor 
 - **Location:** Tsukuba Challenge 2019 Course 
 - **File:** [tc19_js_2019-09-14-14-12-15.bag (56 GB)](https://drive.google.com/file/d/1_ZFxcYRgKpX0MLZ5_dPTrm9Fq4p1TFH1/view?usp=sharing), [tc19_js_2019-09-14-14-12-15.bag.7z (22 GB)](https://drive.google.com/file/d/1ETDRXmVyWI_kCDog2He02jrOfarEABt5/view?usp=sharing)
@@ -65,7 +65,7 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### TC2019, fuRo, Map Data
 
 - **Short Name:** map_tc19_furo
-- **Provider:** fuRo
+- **Provider (Team):** fuRo
 - **Type:** Map 
 - **Location:** Tsukuba Challenge 2019 Course 
 - **File:** [map_tc19_o085_f-04_t05.pcd](https://drive.google.com/file/d/1mH20dXpnBBlQ6hMKJZqdVhphrffsvWK_/view?usp=sharing)
@@ -88,7 +88,7 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### TC2019, Tsuchiura Project, Sensor Data
 
 - **Short Name:** tc19_tsuchiura-pj
-- **Provider:** Tsuchiura Project
+- **Provider (Team):** Tsuchiura Project
 - **Type:** Sensor 
 - **Location:** Tsukuba Challenge 2019 Course 
 - **File:** [2019-11-10-13-37-16.bag](https://doog-cloud.com/index.php/s/yByYgFkodOUHkkJ)
@@ -113,7 +113,7 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### TC2018, fuRo, Sensor Data
 
 - **Short Name:** tc18_furo
-- **Provider:** fuRo
+- **Provider (Team):** fuRo
 - **Type:** Sensor 
 - **Location:** Tsukuba Challenge 2018 Course 
 - **File:** [tc18_js_2018-09-15-14-31-29.bag (41 GB)](https://drive.google.com/file/d/1vZB_1gKLWW6cypC9W9ZlNIKxIWb1-Z9p/view?usp=sharing), [tc18_js_2018-09-15-14-31-29.bag.7z (12 GB)](https://drive.google.com/file/d/10Dh1cEg0U_MEjiDxlg6He8xEYoTIAgk4/view?usp=sharing)
@@ -139,7 +139,7 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### TC2018, fuRo, Map Data
 
 - **Short Name:** map_tc18_furo
-- **Provider:** fuRo
+- **Provider (Team):** fuRo
 - **Type:** Map 
 - **Location:** Tsukuba Challenge 2018 Course 
 - **File:** [map_tc18_o085_f-04_t30.pcd](https://drive.google.com/file/d/1c7Vd4vkMudAHyxc0ZOZCbTgx8ZFZ_Slx/view?usp=sharing)
@@ -167,7 +167,7 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### Tsudanuma 2020, Chiba Institute of Technology, Sensor Data
 
 - **Short Name:** tsudanuma20_cit
-- **Provider:** Chiba Institute of Technology
+- **Provider (Team):** Chiba Institute of Technology
 - **Type:** Sensor 
 - **Location:** Tsudanuma 2020
 - **File:** [tsudanuma20_cit_compressed.bag](https://drive.google.com/file/d/1SBKNJ2NDwQlhbN75WJcMppTSwlJu1s4g/view?usp=sharing)
@@ -190,7 +190,7 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### Tsudanuma 2020, Chiba Institute of Technology, Map Data
 
 - **Short Name:** map_tsudanuma20_cit
-- **Provider:** Chiba Institute of Technology
+- **Provider (Team):** Chiba Institute of Technology
 - **Location:** Tsudanuma 2020
 - **Type:** Map
 - **File:** [map_tsudanuma20_cit.pcd](https://drive.google.com/file/d/19HeoDbAmwfxLW40NhZFPQGvRZKuip62B/view?usp=sharing)
