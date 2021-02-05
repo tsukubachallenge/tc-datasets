@@ -14,6 +14,13 @@
 | [map_tsudanuma20_cit](#tsudanuma-2020-chiba-institute-of-technology-map-data) | Chiba Institute of Technology | Map    | Tsudanuma 2020                |
 
 
+```
+## Example Course Template
+
+### Course Name, Team Name, Sensor Data / Map Data
+```
+
+
 ## Tsukuba Challenge 2019 Course
 
 ### TC2019, fuRo, GNSS+INS Map Data
@@ -207,9 +214,5 @@ If you use our dataset in your academic work, please cite the following paper [[
 - **License:** TBD
 
 
-## Example Course Template
-
-### Course Name, Team Name, Sensor Data / Map Data
-
-
 # [WIP] Related Datasets
+
