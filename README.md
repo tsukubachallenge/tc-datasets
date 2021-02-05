@@ -2,12 +2,44 @@
 
 **Real World Datasets for Autonomous Navigation**
 
+| Name                                                                       | Provider                      | Type   | Location                      |
+|----------------------------------------------------------------------------|-------------------------------|--------|-------------------------------|
+| [map_tc19_gnss+ins_furo](#tc2019-furo-gnssins-map-data)                    | fuRo                          | Map    | Tsukuba Challenge 2019 Course |
+| [tc19_furo](#tc2019-furo-sensor-data)                                      | fuRo                          | Sensor | Tsukuba Challenge 2019 Course |
+| [map_tc19_furo](#tc2019-furo-map-data)                                     | fuRo                          | Map    | Tsukuba Challenge 2019 Course |
+| [tc19_tsuchiuraPJ](#tc2019-tsuchiura-project-sensor-data)                  | Tsuchiura Project             | Sensor | Tsukuba Challenge 2019 Course |
+| [tc18_furo](#tsukuba-challenge-2018-course)                                | fuRo                          | Sensor | Tsukuba Challenge 2018 Course |
+| [map_tc18_furo](#tc2018-furo-map-data)                                     | fuRo                          | Map    | Tsukuba Challenge 2018 Course |
+| [CIT_Tsudanuma](#tsudanuma-2020-chiba-institute-of-technology-sensor-data) | Chiba Institute of Technology | Sensor | Tsudanuma 2020                |
+| [map_tsudanuma](#tsudanuma-2020-chiba-institute-of-technology-map-data)    | Chiba Institute of Technology | Map    | Tsudanuma 2020                |
 
 ## Tsukuba Challenge 2019 Course
+
+### TC2019, fuRo, GNSS+INS Map Data
+
+- **Short Name:** map_tc19_gnss+ins_furo
+- **Provider:** fuRo
+- **Type:** Map 
+- **Location:** Tsukuba Challenge 2019 Course 
+- **File:** [map_tc19_gnss+ins_furo.pcd](http://www.taroz.net/span/data/map_tc19_gnss+ins_furo.pcd)
+- **Size:** 1.95 GB
+- **Format:** pcd
+- **Number of Points:** 83,178,268
+- **Point Type:**
+  - **XYZ:** Yes
+  - **Intensity:** Yes
+  - **Color:** No
+  - **Normal:** No
+- **SLAM Method:** No SLAM (GNSS+INS, using NovAtel SPAN-CPT7 + Velodyne VLP-16)
+- **Description:** [Web viewer](http://www.taroz.net/span/span_tc_vlp16_100m_5cm.html),  [LT PPT slide](http://www.taroz.net/span/data/LT_2020.pdf). The lidar measurement of more than 100 meters is cut off. We ran the Tsukuba Challenge 2019 course, excluding the forest in the park. Latitude, longitude, and ellipsoid height of the origin: 36.08254144, 140.07642281, 66.9479.
+- **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ### TC2019, fuRo, Sensor Data
 
 - **Short Name:** tc19_furo
+- **Provider:** fuRo
+- **Type:** Sensor 
+- **Location:** Tsukuba Challenge 2019 Course 
 - **File:** [tc19_js_2019-09-14-14-12-15.bag (56 GB)](https://drive.google.com/file/d/1_ZFxcYRgKpX0MLZ5_dPTrm9Fq4p1TFH1/view?usp=sharing), [tc19_js_2019-09-14-14-12-15.bag.7z (22 GB)](https://drive.google.com/file/d/1ETDRXmVyWI_kCDog2He02jrOfarEABt5/view?usp=sharing)
 - **Size:** 55.8 GB
 - **Format:** rosbag
@@ -31,6 +63,9 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### TC2019, fuRo, Map Data
 
 - **Short Name:** map_tc19_furo
+- **Provider:** fuRo
+- **Type:** Map 
+- **Location:** Tsukuba Challenge 2019 Course 
 - **File:** [map_tc19_o085_f-04_t05.pcd](https://drive.google.com/file/d/1mH20dXpnBBlQ6hMKJZqdVhphrffsvWK_/view?usp=sharing)
 - **Size:** 683 MB
 - **Format:** pcd
@@ -51,6 +86,9 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### TC2019, Tsuchiura Project, Sensor Data
 
 - **Short Name:** tc19_tsuchiuraPJ
+- **Provider:** Tsuchiura Project
+- **Type:** Sensor 
+- **Location:** Tsukuba Challenge 2019 Course 
 - **File:** [2019-11-10-13-37-16.bag](https://doog-cloud.com/index.php/s/yByYgFkodOUHkkJ)
 - **Size:** 12.8 GB
 - **Format:** rosbag
@@ -73,6 +111,9 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### TC2018, fuRo, Sensor Data
 
 - **Short Name:** tc18_furo
+- **Provider:** fuRo
+- **Type:** Sensor 
+- **Location:** Tsukuba Challenge 2018 Course 
 - **File:** [tc18_js_2018-09-15-14-31-29.bag (41 GB)](https://drive.google.com/file/d/1vZB_1gKLWW6cypC9W9ZlNIKxIWb1-Z9p/view?usp=sharing), [tc18_js_2018-09-15-14-31-29.bag.7z (12 GB)](https://drive.google.com/file/d/10Dh1cEg0U_MEjiDxlg6He8xEYoTIAgk4/view?usp=sharing)
 - **Size:** 40.8 GB
 - **Format:** rosbag
@@ -96,6 +137,9 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### TC2018, fuRo, Map Data
 
 - **Short Name:** map_tc18_furo
+- **Provider:** fuRo
+- **Type:** Map 
+- **Location:** Tsukuba Challenge 2018 Course 
 - **File:** [map_tc18_o085_f-04_t30.pcd](https://drive.google.com/file/d/1c7Vd4vkMudAHyxc0ZOZCbTgx8ZFZ_Slx/view?usp=sharing)
 - **Size:** 519 MB
 - **Format:** pcd
@@ -121,6 +165,9 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### Tsudanuma 2020, Chiba Institute of Technology, Sensor Data
 
 - **Short Name:** CIT_Tsudanuma
+- **Provider:** Chiba Institute of Technology
+- **Type:** Sensor 
+- **Location:** Tsudanuma 2020
 - **File:** [CIT_2020_compressed.bag](https://drive.google.com/file/d/1SBKNJ2NDwQlhbN75WJcMppTSwlJu1s4g/view?usp=sharing)
 - **Size:** 57 GB
 - **Format:** rosbag
@@ -141,6 +188,9 @@ If you use our dataset in your academic work, please cite the following paper [[
 ### Tsudanuma 2020, Chiba Institute of Technology, Map Data
 
 - **Short Name:** map_tsudanuma
+- **Provider:** Chiba Institute of Technology
+- **Location:** Tsudanuma 2020
+- **Type:** Map
 - **File:** [map_tsudanuma.pcd](https://drive.google.com/file/d/19HeoDbAmwfxLW40NhZFPQGvRZKuip62B/view?usp=sharing)
 - **Size:** 490.8 MB
 - **Format:** pcd
