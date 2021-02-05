@@ -2,16 +2,17 @@
 
 **Real World Datasets for Autonomous Navigation**
 
-| Name                                                                       | Provider                      | Type   | Location                      |
-|----------------------------------------------------------------------------|-------------------------------|--------|-------------------------------|
-| [map_tc19_gnss+ins_furo](#tc2019-furo-gnssins-map-data)                    | fuRo                          | Map    | Tsukuba Challenge 2019 Course |
-| [tc19_furo](#tc2019-furo-sensor-data)                                      | fuRo                          | Sensor | Tsukuba Challenge 2019 Course |
-| [map_tc19_furo](#tc2019-furo-map-data)                                     | fuRo                          | Map    | Tsukuba Challenge 2019 Course |
-| [tc19_tsuchiuraPJ](#tc2019-tsuchiura-project-sensor-data)                  | Tsuchiura Project             | Sensor | Tsukuba Challenge 2019 Course |
-| [tc18_furo](#tsukuba-challenge-2018-course)                                | fuRo                          | Sensor | Tsukuba Challenge 2018 Course |
-| [map_tc18_furo](#tc2018-furo-map-data)                                     | fuRo                          | Map    | Tsukuba Challenge 2018 Course |
-| [CIT_Tsudanuma](#tsudanuma-2020-chiba-institute-of-technology-sensor-data) | Chiba Institute of Technology | Sensor | Tsudanuma 2020                |
-| [map_tsudanuma](#tsudanuma-2020-chiba-institute-of-technology-map-data)    | Chiba Institute of Technology | Map    | Tsudanuma 2020                |
+| Name                                                                          | Provider                      | Type   | Location                      |
+|-------------------------------------------------------------------------------|-------------------------------|--------|-------------------------------|
+| [map_tc19_gnss+ins_furo](#tc2019-furo-gnssins-map-data)                       | fuRo                          | Map    | Tsukuba Challenge 2019 Course |
+| [tc19_furo](#tc2019-furo-sensor-data)                                         | fuRo                          | Sensor | Tsukuba Challenge 2019 Course |
+| [map_tc19_furo](#tc2019-furo-map-data)                                        | fuRo                          | Map    | Tsukuba Challenge 2019 Course |
+| [tc19_tsuchiura-pj](#tc2019-tsuchiura-project-sensor-data)                    | Tsuchiura Project             | Sensor | Tsukuba Challenge 2019 Course |
+| [tc18_furo](#tsukuba-challenge-2018-course)                                   | fuRo                          | Sensor | Tsukuba Challenge 2018 Course |
+| [map_tc18_furo](#tc2018-furo-map-data)                                        | fuRo                          | Map    | Tsukuba Challenge 2018 Course |
+| [tsudanuma20_cit](#tsudanuma-2020-chiba-institute-of-technology-sensor-data)  | Chiba Institute of Technology | Sensor | Tsudanuma 2020                |
+| [map_tsudanuma20_cit](#tsudanuma-2020-chiba-institute-of-technology-map-data) | Chiba Institute of Technology | Map    | Tsudanuma 2020                |
+
 
 ## Tsukuba Challenge 2019 Course
 
@@ -33,6 +34,7 @@
 - **SLAM Method:** No SLAM (GNSS+INS, using NovAtel SPAN-CPT7 + Velodyne VLP-16)
 - **Description:** [Web viewer](http://www.taroz.net/span/span_tc_vlp16_100m_5cm.html),  [LT PPT slide](http://www.taroz.net/span/data/LT_2020.pdf). The lidar measurement of more than 100 meters is cut off. We ran the Tsukuba Challenge 2019 course, excluding the forest in the park. Latitude, longitude, and ellipsoid height of the origin: 36.08254144, 140.07642281, 66.9479.
 - **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 
 ### TC2019, fuRo, Sensor Data
 
@@ -85,7 +87,7 @@ If you use our dataset in your academic work, please cite the following paper [[
 
 ### TC2019, Tsuchiura Project, Sensor Data
 
-- **Short Name:** tc19_tsuchiuraPJ
+- **Short Name:** tc19_tsuchiura-pj
 - **Provider:** Tsuchiura Project
 - **Type:** Sensor 
 - **Location:** Tsukuba Challenge 2019 Course 
@@ -164,11 +166,11 @@ If you use our dataset in your academic work, please cite the following paper [[
 
 ### Tsudanuma 2020, Chiba Institute of Technology, Sensor Data
 
-- **Short Name:** CIT_Tsudanuma
+- **Short Name:** tsudanuma20_cit
 - **Provider:** Chiba Institute of Technology
 - **Type:** Sensor 
 - **Location:** Tsudanuma 2020
-- **File:** [CIT_2020_compressed.bag](https://drive.google.com/file/d/1SBKNJ2NDwQlhbN75WJcMppTSwlJu1s4g/view?usp=sharing)
+- **File:** [tsudanuma20_cit_compressed.bag](https://drive.google.com/file/d/1SBKNJ2NDwQlhbN75WJcMppTSwlJu1s4g/view?usp=sharing)
 - **Size:** 57 GB
 - **Format:** rosbag
 - **Date:** 2020-08-27 17:43:12
@@ -187,11 +189,11 @@ If you use our dataset in your academic work, please cite the following paper [[
 
 ### Tsudanuma 2020, Chiba Institute of Technology, Map Data
 
-- **Short Name:** map_tsudanuma
+- **Short Name:** map_tsudanuma20_cit
 - **Provider:** Chiba Institute of Technology
 - **Location:** Tsudanuma 2020
 - **Type:** Map
-- **File:** [map_tsudanuma.pcd](https://drive.google.com/file/d/19HeoDbAmwfxLW40NhZFPQGvRZKuip62B/view?usp=sharing)
+- **File:** [map_tsudanuma20_cit.pcd](https://drive.google.com/file/d/19HeoDbAmwfxLW40NhZFPQGvRZKuip62B/view?usp=sharing)
 - **Size:** 490.8 MB
 - **Format:** pcd
 - **Number of Points:** 13,583,284
