@@ -106,7 +106,7 @@ If you use our dataset in your academic work, please cite the following paper [[
 - **Setup:** Mobile Robot (Autonomous Operation)
 - **Sensors:**
   - **Lidar:** Hokuyo YVT-X002, UTM-30LX-EW, URM-40LC-EW
-  - **Camera:** Ricoh Theta S, logicool C920
+  - **Camera:** Ricoh Theta S, Logicool C920
   - **Radar:** No
   - **GNSS:** u-blox NEO-M8T
   - **IMU:** No
@@ -185,7 +185,7 @@ If you use our dataset in your academic work, please cite the following paper [[
 - **Setup:** Mobile Robot (Joystick Operation)
 - **Sensors:**
   - **Lidar:** Velodyne VLP-16
-  - **Camera:** Intel Realsense d435i (without depth)
+  - **Camera:** Intel RealSense D435i (without depth)
   - **Radar:** No
   - **GNSS:** Drogger DG-PRO1RW (Independent Positioning)
   - **IMU:** Analog Devices ADIS16465
@@ -209,7 +209,7 @@ If you use our dataset in your academic work, please cite the following paper [[
   - **Intensity:** Yes
   - **Color:** No
   - **Normal:** Yes
-- **SLAM Method:** Occupancy Voxel Mapping using LIO-SAM.
+- **SLAM Method:** LIO-SAM
 - **Description:** Tsudanuma Campus of Chiba Institute of Technology.
 - **License:** TBD
 
