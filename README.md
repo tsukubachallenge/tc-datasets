@@ -4,6 +4,7 @@
 
 | Name                                                                          | Provider (Team)               | Type   | Location                      |
 |-------------------------------------------------------------------------------|-------------------------------|--------|-------------------------------|
+| [map_tc21_mapiv](#tc2021-mapiv-slam-map-data)                                  | MapIV                         | Map    | Tsukuba Challenge 2021 Course |
 | [map_tc19_gnss+ins_furo](#tc2019-furo-gnssins-map-data)                       | fuRo                          | Map    | Tsukuba Challenge 2019 Course |
 | [tc19_furo](#tc2019-furo-sensor-data)                                         | fuRo                          | Sensor | Tsukuba Challenge 2019 Course |
 | [map_tc19_furo](#tc2019-furo-map-data)                                        | fuRo                          | Map    | Tsukuba Challenge 2019 Course |
@@ -19,6 +20,27 @@
 
 ### Course Name, Team Name, Sensor Data / Map Data
 ```
+
+## Tsukuba Challenge 2021 Course
+
+### TC2021, MapIV, SLAM Map Data
+
+- **Short Name:** map_tc21_mapiv
+- **Provider (Team):** MapIV
+- **Type:** Map
+- **Location:** Tsukuba Challenge 2021 Course
+- **File:** [0.15_map_all.pcd (505 MB)](https://www.dropbox.com/sh/5gel5pvjm6wh8xn/AABPHDa7t4U8v7X2Jb6EM9Mia?dl=0), [map_converted*.pcd (10.9 GB)](https://www.dropbox.com/sh/hfb36jgk1km15xk/AABpmYx1JDr5wIVdkFU9rrnfa?dl=0)
+- **Size:** 505 MB, 10.9GB
+- **Format:** pcd
+- **Number of Points:** 31,559,485, 682,377,762
+- **Point Type:**
+  - **XYZ:** Yes
+  - **Intensity:** Yes
+  - **Color:** No
+  - **Normal:** No
+- **SLAM Method:** [MapIV Engine](https://www.map4.jp/technology) (HESAI PandarXT-32 + Septentrio mosaic)
+- **Description:** The LiDAR measurement of more than 70 meters is cut off. "map_converted*.pcd" are raw point cloud maps, and "0.15_map_all.pcd" is a downsampled and concatenated map of them. We used Voxel Grid Filter for downsamapling. Map coordinate system is the Japan Plane Rectangular CS IXj, and its height is orthometric height.
+- **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
 ## Tsukuba Challenge 2019 Course
