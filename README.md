@@ -13,7 +13,7 @@
 | [map_tc18_furo](#tc2018-furo-map-data)                                        | fuRo                          | Map    | Tsukuba Challenge 2018 Course |
 | [tsudanuma20_cit](#tsudanuma-2020-chiba-institute-of-technology-sensor-data)  | Chiba Institute of Technology | Sensor | Tsudanuma 2020                |
 | [map_tsudanuma20_cit](#tsudanuma-2020-chiba-institute-of-technology-map-data) | Chiba Institute of Technology | Map    | Tsudanuma 2020                |
-| [map_utsukuba22_university_of_tsukuba](#utsukuba-2022-university_of_tsukuba-map-data)                     | University of Tsukuba                       | Map    | Tsukuba campus 2022           |
+| [map_utsukuba22_university_of_tsukuba](#utsukuba-2022-university-of-tsukuba-map-data)                     | University of Tsukuba                       | Map    | Tsukuba campus 2022           |
 
 ```
 ## Example Course Template
@@ -241,10 +241,10 @@ If you use our dataset in your academic work, please cite the following paper [[
 - **Provider (Team):** University of Tsukuba
 - **Location:** Tsukuba campus 2022
 - **Type:** Map
-- **File:** [map_utsukuba22_university_of_tsukuba.pcd](https://drive.google.com/file/d/1IryFbyc9VYZTTtD53FgluXEaUYqctv0h/view?usp=sharing)
-- **Size:** 41 MB
+- **File:** [map_utsukuba22_university_of_tsukuba.pcd](https://drive.google.com/file/d/1mSi6OP2p4jFwK3vVgvFIbCdxPmN4UcVg/view?usp=sharing)
+- **Size:** 224 MB
 - **Format:** pcd
-- **Number of Points:** 2,875,954
+- **Number of Points:** 14,656,120
 - **Point Type:**
   - **XYZ:** Yes
   - **Intensity:** Yes
