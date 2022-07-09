@@ -13,7 +13,7 @@
 | [map_tc18_furo](#tc2018-furo-map-data)                                        | fuRo                          | Map    | Tsukuba Challenge 2018 Course |
 | [tsudanuma20_cit](#tsudanuma-2020-chiba-institute-of-technology-sensor-data)  | Chiba Institute of Technology | Sensor | Tsudanuma 2020                |
 | [map_tsudanuma20_cit](#tsudanuma-2020-chiba-institute-of-technology-map-data) | Chiba Institute of Technology | Map    | Tsudanuma 2020                |
-| [map_utsukuba22_roboken](#utsukuba-2022-roboken-map-data)                     | ROBOKEN                       | Map    | Tsukuba campus 2022           |
+| [map_utsukuba22_university_of_tsukuba](#utsukuba-2022-university_of_tsukuba-map-data)                     | University of Tsukuba                       | Map    | Tsukuba campus 2022           |
 
 ```
 ## Example Course Template
@@ -235,13 +235,13 @@ If you use our dataset in your academic work, please cite the following paper [[
 - **Description:** Tsudanuma Campus of Chiba Institute of Technology.
 - **License:** TBD
 
-### UTsukuba 2022, ROBOKEN, Map Data
+### UTsukuba 2022, University of Tsukuba, Map Data
 
-- **Short Name:** map_utsukuba22_roboken
-- **Provider (Team):** ROBOKEN
+- **Short Name:** map_utsukuba22_university_of_tsukuba
+- **Provider (Team):** University of Tsukuba
 - **Location:** Tsukuba campus 2022
 - **Type:** Map
-- **File:** [map_utsukuba22_roboken.pcd](https://drive.google.com/file/d/1IryFbyc9VYZTTtD53FgluXEaUYqctv0h/view?usp=sharing)
+- **File:** [map_utsukuba22_university_of_tsukuba.pcd](https://drive.google.com/file/d/1IryFbyc9VYZTTtD53FgluXEaUYqctv0h/view?usp=sharing)
 - **Size:** 41 MB
 - **Format:** pcd
 - **Number of Points:** 2,875,954
@@ -252,7 +252,7 @@ If you use our dataset in your academic work, please cite the following paper [[
   - **Normal:** Yes
 - **SLAM Method:** LIO-SAM
 - **Description:** Tsukuba Campus of University of Tsukuba.
-- **License:** TBD
+- **License:**  [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 # [WIP] Related Datasets
 
