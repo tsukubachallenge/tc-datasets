@@ -11,10 +11,10 @@
 | [tc19_tsuchiura-pj](#tc2019-tsuchiura-project-sensor-data)                    | Tsuchiura Project             | Sensor | Tsukuba Challenge 2019 Course |
 | [tc18_furo](#tsukuba-challenge-2018-course)                                   | fuRo                          | Sensor | Tsukuba Challenge 2018 Course |
 | [map_tc18_furo](#tc2018-furo-map-data)                                        | fuRo                          | Map    | Tsukuba Challenge 2018 Course |
-| [tsudanuma20_cit](#tsudanuma-2020-chiba-institute-of-technology-sensor-data)  | Chiba Institute of Technology | Sensor | Tsudanuma 2020                |
-| [map_tsudanuma20_cit](#tsudanuma-2020-chiba-institute-of-technology-map-data) | Chiba Institute of Technology | Map    | Tsudanuma 2020                |
 | [utsukuba22_university_of_tsukuba](#utsukuba-2022-university-of-tsukuba-sensor-data)                     | University of Tsukuba                       | Sensor    | Tsukuba campus 2022           |
 | [map_utsukuba22_university_of_tsukuba](#utsukuba-2022-university-of-tsukuba-map-data)                     | University of Tsukuba                       | Map    | Tsukuba campus 2022           |
+| [tsudanuma20_cit](#tsudanuma-2020-chiba-institute-of-technology-sensor-data)  | Chiba Institute of Technology | Sensor | Tsudanuma 2020                |
+| [map_tsudanuma20_cit](#tsudanuma-2020-chiba-institute-of-technology-map-data) | Chiba Institute of Technology | Map    | Tsudanuma 2020                |
 
 ```
 ## Example Course Template
@@ -191,8 +191,48 @@ If you use our dataset in your academic work, please cite the following paper [[
 
 ## Other Courses
 
-### [WIP] Tsudanuma 2020, fuRo, Sensor Data
+### UTsukuba 2022, University of Tsukuba, Sensor Data
 
+- **Short Name:** utsukuba22_university_of_tsukuba
+- **Provider (Team):** University of Tsukuba
+- **Type:** Sensor 
+- **Location:** Tsukuba campus 2022
+- **File:** [utsukuba22_university_of_tsukuba.bag.zst](https://drive.google.com/file/d/1AdCAw6NiVh2lg-FVPgSw6jdtMDTxHpUZ/view?usp=sharing)
+- **Size:** 8 GB
+- **Format:** rosbag
+- **Date:** 2022-07-09 10:34:13
+- **Duration:** 47:02s
+- **Setup:** Mobile Robot (Joystick Operation)
+- **Sensors:**
+  - **Lidar:** Velodyne VLP-16
+  - **Camera:** No
+  - **Radar:** No
+  - **GNSS:** No
+  - **IMU:** LOAD MicroStrain 3DM-GX5-25
+  - **Motor Encoders (Wheel Odometry):** Yes
+- **Description:** This bag file is compressed with a command `zstd`. You can decompress with the command `zstd -d utsukuba22_university_of_tsukuba.bag.zst`
+- **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+### UTsukuba 2022, University of Tsukuba, Map Data
+
+- **Short Name:** map_utsukuba22_university_of_tsukuba
+- **Provider (Team):** University of Tsukuba
+- **Location:** Tsukuba campus 2022
+- **Type:** Map
+- **File:** [map_utsukuba22_university_of_tsukuba.pcd](https://drive.google.com/file/d/1mSi6OP2p4jFwK3vVgvFIbCdxPmN4UcVg/view?usp=sharing)
+- **Size:** 224 MB
+- **Format:** pcd
+- **Number of Points:** 14,656,120
+- **Point Type:**
+  - **XYZ:** Yes
+  - **Intensity:** Yes
+  - **Color:** No
+  - **Normal:** Yes
+- **SLAM Method:** LIO-SAM
+- **Description:** Tsukuba Campus of University of Tsukuba.
+- **License:**  [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+### [WIP] Tsudanuma 2020, fuRo, Sensor Data
 
 ### Tsudanuma 2020, Chiba Institute of Technology, Sensor Data
 
@@ -235,47 +275,6 @@ If you use our dataset in your academic work, please cite the following paper [[
 - **SLAM Method:** LIO-SAM
 - **Description:** Tsudanuma Campus of Chiba Institute of Technology.
 - **License:** TBD
-
-### UTsukuba 2022, University of Tsukuba, Sensor Data
-
-- **Short Name:** utsukuba22_university_of_tsukuba
-- **Provider (Team):** University of Tsukuba
-- **Type:** Sensor 
-- **Location:** Tsukuba campus 2022
-- **File:** [utsukuba22_university_of_tsukuba.bag.zst](https://drive.google.com/file/d/1AdCAw6NiVh2lg-FVPgSw6jdtMDTxHpUZ/view?usp=sharing)
-- **Size:** 8 GB
-- **Format:** rosbag
-- **Date:** 2022-07-09 10:34:13
-- **Duration:** 47:02s
-- **Setup:** Mobile Robot (Joystick Operation)
-- **Sensors:**
-  - **Lidar:** Velodyne VLP-16
-  - **Camera:** No
-  - **Radar:** No
-  - **GNSS:** No
-  - **IMU:** LOAD MicroStrain 3DM-GX5-25
-  - **Motor Encoders (Wheel Odometry):** Yes
-- **Description:** This bag file is compressed with a command `zstd`. You can decompress with the command `zstd -d utsukuba22_university_of_tsukuba.bag.zst`
-- **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
-### UTsukuba 2022, University of Tsukuba, Map Data
-
-- **Short Name:** map_utsukuba22_university_of_tsukuba
-- **Provider (Team):** University of Tsukuba
-- **Location:** Tsukuba campus 2022
-- **Type:** Map
-- **File:** [map_utsukuba22_university_of_tsukuba.pcd](https://drive.google.com/file/d/1mSi6OP2p4jFwK3vVgvFIbCdxPmN4UcVg/view?usp=sharing)
-- **Size:** 224 MB
-- **Format:** pcd
-- **Number of Points:** 14,656,120
-- **Point Type:**
-  - **XYZ:** Yes
-  - **Intensity:** Yes
-  - **Color:** No
-  - **Normal:** Yes
-- **SLAM Method:** LIO-SAM
-- **Description:** Tsukuba Campus of University of Tsukuba.
-- **License:**  [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 # [WIP] Related Datasets
 
