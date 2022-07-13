@@ -254,7 +254,7 @@ If you use our dataset in your academic work, please cite the following paper [[
   - **IMU:** Analog Devices ADIS16465
   - **Motor Encoders (Wheel Odometry):** Yes
 - **Description:** This bag file is compressed with a command `rosbag compress`.
-- **License:** TBD
+- **License:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 
 ### Tsudanuma 2020, Chiba Institute of Technology, Map Data
@@ -274,7 +274,7 @@ If you use our dataset in your academic work, please cite the following paper [[
   - **Normal:** Yes
 - **SLAM Method:** LIO-SAM
 - **Description:** Tsudanuma Campus of Chiba Institute of Technology.
-- **License:** TBD
+- **License:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 # [WIP] Related Datasets
 
