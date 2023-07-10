@@ -11,6 +11,7 @@
 | [tc19_tsuchiura-pj](#tc2019-tsuchiura-project-sensor-data)                    | Tsuchiura Project             | Sensor | Tsukuba Challenge 2019 Course |
 | [tc18_furo](#tsukuba-challenge-2018-course)                                   | fuRo                          | Sensor | Tsukuba Challenge 2018 Course |
 | [map_tc18_furo](#tc2018-furo-map-data)                                        | fuRo                          | Map    | Tsukuba Challenge 2018 Course |
+| [iias_tsukuba23](#iias-tsukuba-2023-aqua-university-of-tsukuba-sensor-data)   | Aqua (University of Tsukuba)  | Sensor | iias Tsukuba 2023             |
 | [utsukuba22_university_of_tsukuba](#utsukuba-2022-university-of-tsukuba-sensor-data)                     | University of Tsukuba                       | Sensor    | Tsukuba campus 2022           |
 | [map_utsukuba22_university_of_tsukuba](#utsukuba-2022-university-of-tsukuba-map-data)                     | University of Tsukuba                       | Map    | Tsukuba campus 2022           |
 | [tsudanuma20_cit](#tsudanuma-2020-chiba-institute-of-technology-sensor-data)  | Chiba Institute of Technology | Sensor | Tsudanuma 2020                |
@@ -190,6 +191,28 @@ If you use our dataset in your academic work, please cite the following paper [[
 
 
 ## Other Courses
+
+### iias Tsukuba 2023, Aqua (University of Tsukuba), Sensor Data
+
+- **Short Name:** iias_tsukuba_2023
+- **Provider (Team):** Aqua (University of Tsukuba)
+- **Type:** Sensor 
+- **Location:** iias Tsukuba 2023
+- **File:** [iias_tsukuba_2023-03-02-01-06-59.bag](https://o365tsukuba-my.sharepoint.com/:u:/g/personal/yorozu_ayanori_gu_u_tsukuba_ac_jp/EbI3j5k23ElNnsqUAdqsG3gBe73oqCNzMmSKBD9izcqatQ?e=MPChYb&isSPOFile=1)
+- **Size:** 16.7 GB
+- **Format:** rosbag
+- **Date:** 2023-03-02 10:06:59
+- **Duration:** 30:19s
+- **Setup:** Mobile Robot (Joystick Operation)
+- **Sensors:**
+  - **Lidar:** Velodyne VLP-16, Hokuyo UTM-30LX
+  - **Camera:** No
+  - **Radar:** No
+  - **GNSS:** No
+  - **IMU:** No
+  - **Motor Encoders (Wheel Odometry):** Yes
+- **Description:** 
+- **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ### UTsukuba 2022, University of Tsukuba, Sensor Data
 
