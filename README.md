@@ -4,7 +4,8 @@
 
 | Name                                                                          | Provider (Team)               | Type   | Location                      |
 |-------------------------------------------------------------------------------|-------------------------------|--------|-------------------------------|
-| [map_tc21_mapiv](#tc2021-mapiv-slam-map-data)                                  | MapIV                         | Map    | Tsukuba Challenge 2021 Course |
+| [map_tc25_gnss_furo](#tc2025-furo-gnss-map-data)                                   | fuRo                          | Map    | Tsukuba Challenge 2025 Course |
+| [map_tc21_mapiv](#tc2021-mapiv-slam-map-data)                                 | MapIV                         | Map    | Tsukuba Challenge 2021 Course |
 | [map_tc19_gnss+ins_furo](#tc2019-furo-gnssins-map-data)                       | fuRo                          | Map    | Tsukuba Challenge 2019 Course |
 | [tc19_furo](#tc2019-furo-sensor-data)                                         | fuRo                          | Sensor | Tsukuba Challenge 2019 Course |
 | [map_tc19_furo](#tc2019-furo-map-data)                                        | fuRo                          | Map    | Tsukuba Challenge 2019 Course |
@@ -22,6 +23,28 @@
 
 ### Course Name, Team Name, Sensor Data / Map Data
 ```
+
+## Tsukuba Challenge 2025 Course
+
+### TC2025, fuRo, GNSS Map Data
+
+- **Short Name:** map_tc25_gnss_furo
+- **Provider (Team):** fuRo
+- **Type:** Map 
+- **Location:** Tsukuba Challenge 2025 Course 
+- **File:** [map_tc25_gnss.pcd](http://www.taroz.net/pointclouds/map_tc25_gnss.pcd)
+- **Size:** 2.11 GB
+- **Format:** pcd
+- **Number of Points:** 174,957,116
+- **Point Type:**
+  - **XYZ:** Yes
+  - **Intensity:** Yes
+  - **Color:** No
+  - **Normal:** No
+- **SLAM Method:** SLAM ([GLIM](https://github.com/koide3/glim)) + GNSS (HESAI XT32-M2X + Septentrio AsteRx-i3 D Pro+)
+- **Description:** [Web viewer](http://www.taroz.net/pointclouds/tsukuba_202509_5cm.html). [Lightning talk slide](http://www.taroz.net/data/LT_TC_2025.pdf). Created using Lidar, GNSS, and IMU mounted on a bicycle. Refer to the [LT slide](http://www.taroz.net/data/LT_TC_2025.pdf) for the measurement system and driving course. GNSS was integrated into the pose estimated by [GLIM](https://github.com/koide3/glim) through post-processing to reconstruct the map. Downsampled using a 5cm voxel grid filter. Map origin coordinates: Latitude, Longitude, Ellipsoid Height: 36.082628231, 140.076144739, 67.078.
+- **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 
 ## Tsukuba Challenge 2021 Course
 
