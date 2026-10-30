@@ -4,6 +4,7 @@
 
 | Name                                                                          | Provider (Team)               | Type   | Location                      |
 |-------------------------------------------------------------------------------|-------------------------------|--------|-------------------------------|
+| [map_tc26_gnss_ise-robotics](#tc2026-ise-robotics-gnss-map-data)              | ISE Robotics             | Map    | Tsukuba Challenge 2026 Course |
 | [map_tc25_gnss_furo](#tc2025-furo-gnss-map-data)                                   | fuRo                          | Map    | Tsukuba Challenge 2025 Course |
 | [map_tc21_mapiv](#tc2021-mapiv-slam-map-data)                                 | MapIV                         | Map    | Tsukuba Challenge 2021 Course |
 | [map_tc19_gnss+ins_furo](#tc2019-furo-gnssins-map-data)                       | fuRo                          | Map    | Tsukuba Challenge 2019 Course |
@@ -23,6 +24,33 @@
 
 ### Course Name, Team Name, Sensor Data / Map Data
 ```
+
+## Tsukuba Challenge 2026 Course
+
+### TC2026, ISE Robotics, GNSS Map Data
+
+- **Short Name:** tc26-ise-robotics
+- **Provider (Team):** ISE Robotics
+- **Type:** Map
+- **Location:** Tsukuba Challenge 2025 Course 
+- <details>
+  <summary><b>Image Preview</b></summary>
+  <img src="./img/map_tc26_tsukuba_jgd2024_2p5cm.png" alt="map preview" width="400">
+  </details>
+- **Date:** 2026-09-18
+- **File:** [`map_tc26_tsukuba_jgd2024_2p5cm.pcd.tgz`](https://drive.google.com/file/d/1Tuy0ema6f9sNM1GZ6WXcMCt-lTo3Ladw/view?usp=sharing)
+- **Size:** 2.07 GB (decompressed pcd)
+- **Format:** pcd
+- **Number of Points:** 129,076,795
+- **Point Type:**
+  - **XYZ:** Yes
+  - **Intensity:** Yes
+  - **Color:** No
+  - **Normal:** No
+- **SLAM Method:** [GLIM](https://github.com/koide3/glim) + RTK GNSS (Livox MID-360S + u-blox ZED-F9P)
+- **Description:** Created from LiDAR, IMU and RTK GNSS measurements. Downsampled using a 2.5 cm voxel grid, with dynamic-object filtering by [MapCleaner](https://github.com/kamibukuro5656/MapCleaner_Unofficial). The map is referenced to JGD2024, with its horizontal origin at latitude 36.082880°, longitude 140.076545°. Heights are orthometric heights in metres. Conversion from the reference epoch to the current epoch is required when using the map with current-epoch GNSS positions.
+- **License:** [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 
 ## Tsukuba Challenge 2025 Course
 
