@@ -32,7 +32,7 @@
 - **Short Name:** tc26-ise-robotics
 - **Provider (Team):** ISE Robotics
 - **Type:** Map
-- **Location:** Tsukuba Challenge 2025 Course 
+- **Location:** Tsukuba Challenge 2026 Course 
 - <details>
   <summary><b>Image Preview</b></summary>
   <img src="./img/map_tc26_tsukuba_jgd2024_2p5cm.png" alt="map preview" width="400">
